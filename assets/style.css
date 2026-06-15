@@ -44,7 +44,9 @@
        LAYOUT UTILITIES
        ============================================= */
     .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
-    .section { padding: 100px 0; }
+    .section { padding: 100px 0; 
+       overflow: hidden;       
+    }
 
     /* =============================================
        NOISE TEXTURE OVERLAY
@@ -355,8 +357,8 @@
     .about__grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 80px;
-      align-items: stretch; 
+      gap: 40px;
+      align-items: start; 
     }
     .about__text p {
       color: var(--txt-muted);
