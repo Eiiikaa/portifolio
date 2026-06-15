@@ -365,7 +365,7 @@
     }
     .about__text p strong { color: var(--txt-primary); font-weight: 600; }
     .about__stats {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;
       margin-top: 40px;
     }
     .stat {
