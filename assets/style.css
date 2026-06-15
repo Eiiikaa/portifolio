@@ -279,7 +279,7 @@
     .sec-header__sub {
      margin-top: 14px;
      color: var(--txt-muted);
-     max-width: 700px;
+     max-width: none;
      font-size: 1rem;
     }
     /* =============================================
