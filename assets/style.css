@@ -356,7 +356,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 80px;
-      align-items: center;
+      align-items: stretch;
     }
     .about__text p {
       color: var(--txt-muted);
