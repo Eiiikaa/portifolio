@@ -421,11 +421,11 @@
       gap: 24px;
     }
     .skill-group {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px;
-    }
+     background: transparent;
+     border: none;
+     border-radius: 0;
+     padding: 0;
+   }
     .skill-group__title {
       font-size: 0.9rem; font-weight: 600;
       letter-spacing: 0.05em; text-transform: uppercase;
