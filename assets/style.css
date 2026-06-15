@@ -265,6 +265,7 @@
        ============================================= */
     .sec-header {
       margin-bottom: 60px;
+      height: 100%;
     }
     .sec-header__eyebrow {
       font-size: 0.75rem; font-weight: 600;
